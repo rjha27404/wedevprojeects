@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+.container
+{
+  
+    color: wheat;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+}
+.container h1{
+    width: 50%;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0;
+    
+}
+.box input{
+    background:none;
+
+    width: 75%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    
+    
+    padding: 5px 10px;
+    color: white;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background:none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple;
+    background: white;
+    
+.box i{
+    width: 30px;
+    text-align: center;
+    
+}
